@@ -156,6 +156,7 @@ Css pour les logo des réseaux sociaux
  */
 .reseaux img{
     max-height: 35px;
+    display: none;
 }
 /* fin css pour les logo réseau sociaux */
 /*fin du css header*/
