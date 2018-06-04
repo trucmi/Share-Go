@@ -88,7 +88,7 @@ textarea {
 /*===========================================================================
     Mailchimp css
   =========================================================================== */
-#mc_embed_signup form {display:block; position:relative; text-align:left; padding:10px 0 10px 3%}
+#mc_embed_signup form {display:block; position:relative; text-align:left;}
 #mc_embed_signup h2 {font-weight:bold; padding:0; margin:15px 0; font-size:1.4em;}
 #mc_embed_signup input {border: 1px solid #ABB0B2; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
 #mc_embed_signup input[type=checkbox]{-webkit-appearance:checkbox;}
@@ -156,6 +156,7 @@ Css pour les logo des réseaux sociaux
  */
 .reseaux img{
     max-height: 35px;
+    display: none;
 }
 /* fin css pour les logo réseau sociaux */
 /*fin du css header*/
@@ -202,6 +203,20 @@ Css pour les logo des réseaux sociaux
 /*fin du css body*/
 #mc_embed_signup{
     background: transparent  ;
+    margin-left: 17vh;
+}
+
+#mc_embed_signup .mc-field-group{
+    width: 25%;
+    padding-bottom: 0%;
+    display: inline-block;
+    vertical-align: top;
+}
+#mc_embed_signup .clear {
+    clear: both;
+    width: 25%;
+    display: inline;
+    padding-left: 3%;
 }
 
 
