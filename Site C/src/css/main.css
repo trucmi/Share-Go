@@ -140,7 +140,7 @@ body{
     color: white;
 }
 .container{
-    background-image: url("../img/Fondavecformev2.jpg");
+    background-image: url("../img/fondv2 (2).jpg");
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -172,9 +172,11 @@ Css pour les logo des réseaux sociaux
 }
 .textprez{
     font-family: 'Karla', sans-serif;
-     font-size: 3vw;
+     font-size: 2.5vw;
      margin-top: 5%;
      margin-bottom: 4%;
+    color: #E52B2B;
+    font-weight: bold;
  }
 
 #mc_embed_signup form{
@@ -202,7 +204,7 @@ Css pour les logo des réseaux sociaux
 /*fin du css body*/
 #mc_embed_signup{
     background: transparent  ;
-    margin-left: 17vh;
+    margin-left: 16.93%;
 }
 
 #mc_embed_signup .mc-field-group{
@@ -222,6 +224,35 @@ Css pour les logo des réseaux sociaux
     width: 42%;
     font-size: 1.5vh;
     display: inline-block;
+}
+
+.penche1{
+    background-color: white;
+    transform: rotate(-0.5deg);
+    padding: 0 5%;
+    margin-left: 10%;
+}
+.penche2{
+    background-color: white;
+    transform: rotate(0.5deg);
+    margin: 3% 2%;
+    padding: 0 12%;
+}
+.penche3{
+    background-color: white;
+    transform: rotate(-1deg);
+    display: inline-block;
+    margin-left: 15%;
+}
+
+.penche1 p{
+    transform: rotate(0.5deg);
+}
+.penche2 p{
+    transform: rotate(-0.5deg);
+}
+.penche3 p{
+    transform: rotate(1deg);
 }
 
 
