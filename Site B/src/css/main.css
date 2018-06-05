@@ -116,13 +116,15 @@ textarea {
 
 body {
     color: white;
-     font-family: 'Raleway', sans-serif ;
+    font-family: 'Raleway', sans-serif !important;
 }
 
 .logo{
     padding-top: 8%;
 }
-
+.logo img {
+    width: 29%;
+}
 .fond{
     background-image: url("../img/fondv2.jpg");
     background-size: cover;
@@ -131,7 +133,6 @@ body {
     max-height: 40px;
     display: none;
 }
-
 #droite{
     background-image: url("../img/triangles.png");
     background-size: cover;
