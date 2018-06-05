@@ -121,6 +121,7 @@ body {
 
 .logo{
     padding-top: 8%;
+    padding-bottom: 5%;
 }
 .logo img {
     width: 29%;
@@ -131,13 +132,12 @@ body {
 }
 .resaux img{
     max-height: 40px;
-    display: none;
+    display:none ;
 }
 #droite{
-    background-image: url("../img/triangles.png");
     background-size: cover;
     height: 100vh;
-    background-color: #E52B2B;
+    background-color: rgba(255,0,0,0.7);
     margin: 0;
 }
 #gauche{
@@ -162,9 +162,8 @@ h1{
 }
 .rejoin{
     padding-left: 10vh;
-    font-size: 29px;
-    text-shadow: 1px -6px 0px #1B5FEB;
-    font-weight: 900;
+    font-size: 3vh;
+    text-transform: uppercase;
 }
 
 .formulaire{
@@ -176,8 +175,9 @@ h1{
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     border-radius: 25px;
-    background-color: #E52B2B;
+    background-color: white;
     border: 2px white solid;
+    width: 75%;
 }
 #mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error{
     border: 2px #1B5FEB solid ;
@@ -190,9 +190,10 @@ h1{
 }
 #mc_embed_signup .button{
     border-radius: 25px ;
-    background-color: #1B5FEB ;
+    background-color: white ;
     font-weight: bold ;
     font-size: 1.2vw;
+    color: #E52B2B;
 }
 
 #mc_embed_signup .button:hover{
@@ -213,6 +214,68 @@ h1{
     font-family: 'Raleway', sans-serif ;
 
 }
+
+#mc_embed_signup input.button{
+    width: 78%;
+}
+mc-embedded-subscribe{
+    background-image: url("../img/departures.png");
+    background-position: 2px 2px;
+    background-repeat: no-repeat;
+}
+.vol{
+    position: absolute;
+    top: 59%;
+    right: 26%;
+    border: none !important;
+}
+.mail{
+    position: absolute;
+    top: 20%;
+    right: 26%;
+    border: none !important;
+    width: 4% !important;
+}
+.bande{
+    background-color: white;
+    font-family: 'Karla', sans-serif !important;
+    color: #E52B2B;
+    font-weight: bold;
+    font-size: 5vh;
+    margin: 2% 0;
+}
+
+div.bande:first-child{
+    transform: rotate(-0.5deg);
+    width: 65%;
+}
+div.bande:nth-child(2){
+    transform: rotate(0.5deg);
+    width: 50%;
+
+}
+div.bande:nth-child(3){
+    transform: rotate(-1deg);
+    width: 56%;
+
+}
+
+div.bande:first-child p{
+    transform: rotate(0.5deg);
+    padding-left: 3%;
+}
+div.bande:nth-child(2) p{
+    transform: rotate(-0.5deg);
+    padding-left: 3%;
+
+}
+div.bande:nth-child(3) p{
+    transform: rotate(1deg);
+    padding-left: 3%;
+
+}
+
+
 
 @media screen and (max-width: 1024px) {
     .rejoin{
