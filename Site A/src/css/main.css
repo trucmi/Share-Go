@@ -219,6 +219,12 @@ Css pour les logo des réseaux sociaux
     padding-left: 3%;
 }
 
+.RGPD{
+    width: 42%;
+    font-size: 1.5vh;
+    display: inline-block;
+}
+
 
 @media only screen and (max-width:800px) {
     .reseaux img{
@@ -230,6 +236,11 @@ Css pour les logo des réseaux sociaux
     .textprez{
         font-size: 5vw;
     }
+    #mc_embed_signup{
+        background: transparent  ;
+        margin-left: 3vh;
+    }
+
 
 }
 
