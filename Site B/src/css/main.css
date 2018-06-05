@@ -116,7 +116,7 @@ textarea {
 
 body {
     color: white;
-     font-family: 'Raleway', sans-serif !important;
+     font-family: 'Raleway', sans-serif ;
 }
 
 .logo{
@@ -205,6 +205,13 @@ h1{
     clear: left;
     font-family: 'Raleway', sans-serif ;
     padding-top: 5% ;}
+
+.RGPD{
+    font-size: 1.75vh;
+    padding: 0 5%;
+    font-family: 'Raleway', sans-serif ;
+
+}
 
 @media screen and (max-width: 1024px) {
     .rejoin{
