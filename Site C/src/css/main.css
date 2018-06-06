@@ -277,6 +277,13 @@ Css pour les logo des réseaux sociaux
 
 }
 
+@media only screen and (max-width:350px) {
+    #mc_embed_signup .mc-field-group{
+        width: 100% ;
+    }
+
+}
+
 
 
 
