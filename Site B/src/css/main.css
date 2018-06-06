@@ -276,28 +276,74 @@ div.bande:nth-child(3) p{
 }
 
 
-
-@media screen and (max-width: 1024px) {
-    .rejoin{
-        padding-left: 2.5vh;
-        font-size: 2.5vw;
-        text-shadow: 1px -6px 0px #1B5FEB;
-        font-weight: 900;
-    }
-    .logo{
-        padding-top: 35%;
-    }
-
-}
-
 @media screen and (max-width: 800px) {
-.logo{
-    padding-top: 50%;
-}
+
     .resaux img{
         max-height: 25px;
     }
+    .bande{
+        font-size: 3vh;
+    }
+    .textm{
+        font-size: 2.5vw;
+    }
+    .textb{
 
+        font-size: 2.5vw;
+    }
+    .formulaire{
+        padding-top: 20vh;
+    }
+    .rejoin{
+        padding-left: 1vh;
+    }
+
+}
+
+@media screen and (max-width: 500px){
+    .vol {
+        display: none;
+    }
+    .mail {
+        display: none;
+    }
+    #mc_embed_signup input.email{
+        min-width: 25px;
+    }
+    .RGPD{
+        padding: 0;
+        font-size: 1.5vh;
+    }
+    #mc_embed_signup input.button {
+        width: 100%;
+        font-size: 1.5vh;
+    }
+    div.bande:first-child{
+        transform: rotate(-0.5deg);
+        width: 90%;
+    }
+    div.bande:nth-child(2){
+        transform: rotate(0.5deg);
+        width: 90%;
+
+    }
+    div.bande:nth-child(3){
+        transform: rotate(-1deg);
+        width: 90%;
+
+    }
+}
+@media screen and (max-width: 360px){
+    .logo{
+        padding-top: 50%;
+    }
+    .rejoin{
+        font-size: 2vh;
+    }
+    .RGPD{
+        padding: 0;
+        font-size: 1vh;
+    }
 }
 
 
