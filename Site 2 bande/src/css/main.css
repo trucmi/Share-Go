@@ -142,6 +142,15 @@ body {
     height: 100vh;
 }
 
+h2{
+    font-size: 1.5vw !important ;
+    font-weight: 900 !important;
+}
+.rouge a{
+    color: #E52B2B !important;
+    text-decoration: none;
+}
+
 h1{
     font-family: 'Anton', sans-serif !important;
     text-shadow: 2px 2px 0px yellow !important;
@@ -163,7 +172,9 @@ h1{
     font-size: 3vh;
     text-transform: uppercase;
 }
-
+.ecart p{
+    padding: 2% 0;
+}
 .formulaire{
     padding-top: 30vh;
     font-weight: bold;
