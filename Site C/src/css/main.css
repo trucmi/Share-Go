@@ -140,7 +140,7 @@ body{
     color: white;
 }
 .container{
-    background-image: url("../img/fondv2 (2).jpg");
+    background-image: url("../img/fondv2petit.jpg");
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -257,6 +257,7 @@ Css pour les logo des réseaux sociaux
 .penche3 p{
     transform: rotate(1deg);
 }
+
 
 
 @media only screen and (max-width:800px) {
