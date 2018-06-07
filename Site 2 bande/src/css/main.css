@@ -1,0 +1,515 @@
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+/*===========================================================================
+    Mailchimp css
+  =========================================================================== */
+#mc_embed_signup form {display:block; position:relative; text-align:left; padding:10px 0 10px 3%}
+#mc_embed_signup h2 {font-weight:bold; padding:0; margin:15px 0; font-size:1.4em;}
+#mc_embed_signup input {border:1px solid #999; -webkit-appearance:none;}
+#mc_embed_signup input[type=checkbox]{-webkit-appearance:checkbox;}
+#mc_embed_signup input[type=radio]{-webkit-appearance:radio;}
+#mc_embed_signup input:focus {border-color:#333;}
+#mc_embed_signup .button {clear:both; background-color: #aaa; border: 0 none; border-radius:4px; letter-spacing:.03em; color: #FFFFFF; cursor: pointer; display: inline-block; font-size:15px; height: 32px; line-height: 32px; margin: 0 5px 10px 0; padding:0; text-align: center; text-decoration: none; vertical-align: top; white-space: nowrap; width: auto; transition: all 0.23s ease-in-out 0s;}
+#mc_embed_signup .button:hover {background-color:#777;}
+#mc_embed_signup .small-meta {font-size: 11px;}
+#mc_embed_signup .nowrap {white-space:nowrap;}
+#mc_embed_signup .clear {clear:none; display:inline;}
+
+#mc_embed_signup label {display:block; font-size:16px; padding-bottom:10px; font-weight:bold;}
+#mc_embed_signup input.email {font-family:"Open Sans","Helvetica Neue",Arial,Helvetica,Verdana,sans-serif; font-size: 15px; display:block; padding:0 0.4em; margin:0 4% 10px 0; min-height:32px; width:58%; min-width:130px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
+#mc_embed_signup input.button {display:block; width:50%; margin:0 0 10px 0; min-width:90px;}
+
+#mc_embed_signup div#mce-responses {float:left; top:-1.4em; padding:0em .5em 0em .5em; overflow:hidden; width:90%;margin: 0 5%; clear: both;}
+#mc_embed_signup div.response {margin:1em 0; padding:1em .5em .5em 0; font-weight:bold; float:left; top:-1.5em; z-index:1; width:80%;}
+#mc_embed_signup #mce-error-response {display:none;}
+#mc_embed_signup #mce-success-response {color:#529214; display:none;}
+#mc_embed_signup label.error {display:block; float:none; width:auto; margin-left:1.05em; text-align:left; padding:.5em 0;}
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+body {
+    color: white;
+    font-family: 'Raleway', sans-serif !important;
+    background-image: url("../img/fondv2petit.jpg");
+    background-size: cover;
+}
+
+.logo{
+    padding-top: 8%;
+    padding-bottom: 5%;
+}
+.logo img {
+    width: 29%;
+}
+.resaux img{
+    max-height: 40px;
+    padding-bottom: 2vh;
+}
+#droite{
+    background-size: cover;
+    height: 100vh;
+    background-color: rgba(255,0,0,0.7);
+    margin: 0;
+}
+#gauche{
+    height: 100vh;
+}
+
+h1{
+    font-family: 'Anton', sans-serif !important;
+    text-shadow: 2px 2px 0px yellow !important;
+    font-size: 4vw !important;
+    margin-top: 5% !important;
+    margin-bottom: 4%!important;
+}
+.textm{
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    font-size: 1.3vw;
+}
+.textb{
+    padding-bottom: 4vw;
+    font-size: 1.3vw;
+}
+.rejoin{
+    padding-left: 10vh;
+    font-size: 3vh;
+    text-transform: uppercase;
+}
+
+.formulaire{
+    padding-top: 30vh;
+    font-weight: bold;
+}
+
+#mc_embed_signup .mc-field-group input{
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background-color: white;
+    border: 2px white solid;
+    width: 75%;
+}
+#mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error{
+    border: 2px #1B5FEB solid ;
+}
+#mc_embed_signup input:focus{
+    border: 2px white solid ;
+}
+#mc_embed_signup .clear{
+    text-align: center;
+}
+#mc_embed_signup .button{
+    border-radius: 25px ;
+    background-color: white ;
+    font-weight: bold ;
+    font-size: 1.2vw;
+    color: #E52B2B;
+}
+
+#mc_embed_signup .button:hover{
+    border-radius: 25px ;
+    background-color: white ;
+    color: black ;
+}
+
+#mc_embed_signup {
+    background: transparent;
+    clear: left;
+    font-family: 'Raleway', sans-serif ;
+    padding-top: 5% ;}
+
+.RGPD{
+    font-size: 1.75vh;
+    padding: 0 5%;
+    font-family: 'Raleway', sans-serif ;
+
+}
+
+#mc_embed_signup input.button{
+    width: 78%;
+}
+
+.bande{
+    background-color: white;
+    font-family: 'Karla', sans-serif !important;
+    color: #E52B2B;
+    font-weight: bold;
+    font-size: 5vh;
+    margin: 2% 0;
+}
+
+div.bande:first-child{
+    transform: rotate(-0.5deg);
+    width: 65%;
+}
+div.bande:nth-child(2){
+    transform: rotate(0.5deg);
+    width: 50%;
+
+}
+div.bande:nth-child(3){
+    transform: rotate(-1deg);
+    width: 56%;
+
+}
+
+div.bande:first-child p{
+    transform: rotate(0.5deg);
+    padding-left: 3%;
+}
+div.bande:nth-child(2) p{
+    transform: rotate(-0.5deg);
+    padding-left: 3%;
+
+}
+div.bande:nth-child(3) p{
+    transform: rotate(1deg);
+    padding-left: 3%;
+
+}
+
+nav div {
+    display: inline-block;
+    padding-left: 1%;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    color: #E52B2B;
+}
+
+@media screen and (max-width: 800px) {
+
+    .resaux img{
+        max-height: 25px;
+    }
+    .bande{
+        font-size: 3vh;
+    }
+    .textm{
+        font-size: 2.5vw;
+    }
+    .textb{
+
+        font-size: 2.5vw;
+    }
+    .formulaire{
+        padding-top: 20vh;
+    }
+    .rejoin{
+        padding-left: 1vh;
+    }
+
+}
+
+@media screen and (max-width: 500px){
+    .vol {
+        display: none;
+    }
+    .mail {
+        display: none;
+    }
+    #mc_embed_signup input.email{
+        min-width: 25px;
+    }
+    .RGPD{
+        padding: 0;
+        font-size: 1.5vh;
+    }
+    #mc_embed_signup input.button {
+        width: 100%;
+        font-size: 1.5vh;
+    }
+    div.bande:first-child{
+        transform: rotate(-0.5deg);
+        width: 90%;
+    }
+    div.bande:nth-child(2){
+        transform: rotate(0.5deg);
+        width: 90%;
+
+    }
+    div.bande:nth-child(3){
+        transform: rotate(-1deg);
+        width: 90%;
+
+    }
+}
+@media screen and (max-width: 360px){
+    .logo{
+        padding-top: 50%;
+    }
+    .rejoin{
+        font-size: 2vh;
+    }
+    .RGPD{
+        padding: 0;
+        font-size: 1vh;
+    }
+}
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap; /* 1 */
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+    white-space: inherit;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre {
+        white-space: pre-wrap !important;
+    }
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
