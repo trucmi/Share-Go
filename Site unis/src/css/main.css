@@ -139,7 +139,6 @@ textarea {
 body{
     color: white;
     background-image: url("../img/fondv2petit.jpg");
-    height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Raleway', sans-serif !important;
@@ -232,23 +231,43 @@ Css pour les logo des réseaux sociaux
     transform: rotate(-0.5deg);
     padding: 0 5%;
     margin-left: 10%;
+    display: inline-block;
 }
 .penche2{
     background-color: white;
     transform: rotate(0.5deg);
     margin: 3% 2%;
     padding: 0 12%;
+    display: inline-block;
 }
 .penche3{
     background-color: white;
     transform: rotate(-1deg);
     display: inline-block;
     margin-left: 15%;
+    display: inline-block;
 }
-
+.ecart{
+    margin-left: 8.667%;
+}
+.ecart p{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.bas{
+    margin-bottom: 2%;
+}
+.gauche{
+    margin-left: 5%;
+    margin-bottom: 3%;
+}
 .penche1 p{
     transform: rotate(0.5deg);
+    color: #E52B2B;
+    font-size: 2.5vw;
+    font-weight: 900;
 }
+
 .penche2 p{
     transform: rotate(-0.5deg);
 }
@@ -269,7 +288,14 @@ nav a:hover{
     color: #E52B2B;
 }
 
-
+h2{
+font-weight: 900 !important;
+    font-size: 1.5vw !important;
+}
+.rouge a{
+    color: #E52B2B;
+    text-decoration: none;
+}
 @media only screen and (max-width:800px) {
     .reseaux img{
         max-height: 25px;
