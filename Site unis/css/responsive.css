@@ -115,3 +115,27 @@ wrapper{
 .row > *.marg-11{
     margin-left: 93.13%;
 }
+@media only screen and (max-width:500px) {
+    .col-6 {
+        width: 100% !important;
+    }
+
+    .row > *.marg-2{
+        margin-left: 6% !important;
+    }
+    .col-4{
+        width: 100%;
+    }
+    .col-7{
+        width: 100%;
+    }
+    .col-1{
+        width: 33%;
+    }
+    .row > *.marg-1{
+        margin-left: 0% !important;
+    }
+    .formulaire{
+        padding-top: 2vh;
+    }
+}

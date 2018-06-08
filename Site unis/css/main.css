@@ -348,7 +348,44 @@ font-weight: 900 !important;
         background: transparent  ;
         margin-left: 3vh;
     }
+}
 
+@media only screen and (max-width:500px) {
+    .textprez p{
+        font-size: 4vw;
+    }
+    .texte p{
+        font-size: 2.5vw;
+    }
+    #mc_embed_signup .mc-field-group{
+        width: 100%;
+    }
+    .RGPD{
+        width: 100%;
+    }
+    nav a {
+        font-size: 1.5vh;
+    }
+    .fond{
+        display: block !important;
+    }
+    .resaux img{
+        max-height: 20px;
+    }
+    .resaux{
+        text-align: center;
+    }
+    .textm,.textb{
+        font-size: 1.9vh;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+    .rejoin{
+        font-size: 3.5vh;
+    }
+    .pop{
+        width: 75% !important;
+    }
 
 }
 
