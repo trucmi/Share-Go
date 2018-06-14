@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f336743-491f-4e20-8af8-fe188d50c8eb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Site unis/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Site unis/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Site unis/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Site unis/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Site unis/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Site unis/index2.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,7 +17,7 @@
         <entry file="file://$PROJECT_DIR$/Site unis/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="369">
-              <caret line="85" column="14" lean-forward="true" selection-start-line="85" selection-start-column="14" selection-end-line="85" selection-end-column="14" />
+              <caret line="85" column="14" selection-start-line="85" selection-start-column="14" selection-end-line="85" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -28,8 +25,8 @@
       <file leaf-file-name="index2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Site unis/index2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
+            <state relative-caret-position="97">
+              <caret line="60" column="9" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
               <folding>
                 <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -40,8 +37,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Site unis/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="250" column="8" selection-start-line="250" selection-start-column="8" selection-end-line="250" selection-end-column="8" />
+            <state relative-caret-position="318">
+              <caret line="146" column="11" lean-forward="true" selection-start-line="146" selection-start-column="11" selection-end-line="146" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -60,7 +57,11 @@
       <find>logo2</find>
       <find>.logo</find>
       <find>logo</find>
+      <find>#</find>
+      <find>#doir</find>
+      <find>E52B2B</find>
       <find>penche</find>
+      <find>url</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -115,6 +116,12 @@
               <item name="Site unis" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Share-Go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Share-Go" type="462c0819:PsiDirectoryNode" />
+              <item name="Site unis" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -152,27 +159,36 @@
       <workItem from="1528961115105" duration="46000" />
       <workItem from="1528961178959" duration="1554000" />
       <workItem from="1528962762404" duration="9000" />
-      <workItem from="1528962861606" duration="3522000" />
+      <workItem from="1528962861606" duration="4850000" />
     </task>
+    <task id="LOCAL-00001" summary="changement dans le CSS">
+      <created>1528969393634</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1528969393634</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11944000" />
+    <option name="totallyTimeSpent" value="13272000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24934895" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24934895" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32965517" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -181,7 +197,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -210,6 +225,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="changement dans le CSS" />
+    <option name="LAST_COMMIT_MESSAGE" value="changement dans le CSS" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Site unis/index.html">
@@ -388,8 +407,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Site unis/index2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
+        <state relative-caret-position="97">
+          <caret line="60" column="9" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
           <folding>
             <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -399,14 +418,14 @@
     <entry file="file://$PROJECT_DIR$/Site unis/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="369">
-          <caret line="85" column="14" lean-forward="true" selection-start-line="85" selection-start-column="14" selection-end-line="85" selection-end-column="14" />
+          <caret line="85" column="14" selection-start-line="85" selection-start-column="14" selection-end-line="85" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Site unis/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="250" column="8" selection-start-line="250" selection-start-column="8" selection-end-line="250" selection-end-column="8" />
+        <state relative-caret-position="318">
+          <caret line="146" column="11" lean-forward="true" selection-start-line="146" selection-start-column="11" selection-end-line="146" selection-end-column="11" />
         </state>
       </provider>
     </entry>
