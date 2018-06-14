@@ -152,7 +152,7 @@ body{
     padding-top: 5vh !important;
 }
 .logo img{
-    width:75%;
+    width:40%;
 }
 /*
 Css pour les logo des réseaux sociaux
@@ -233,26 +233,23 @@ Css pour les logo des réseaux sociaux
     display: inline-block;
 }
 
-.penche1{
+.penche{
     background-color: white;
-    transform: rotate(-0.5deg);
     padding: 0 5%;
     margin-left: 10%;
     display: inline-block;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
-.penche2{
-    background-color: white;
-    transform: rotate(0.5deg);
-    margin: 3% 2%;
-    padding: 0 11%;
-    display: inline-block;
+
+.penche:nth-child(1){
+    transform: rotate(-0.5deg);
 }
-.penche3{
-    background-color: white;
+.penche:nth-child(2){
+    transform: rotate(1deg);
+}
+.penche:nth-child(3){
     transform: rotate(-1deg);
-    display: inline-block;
-    margin-left: 15%;
-    padding: 0% 10%;
 }
 .ecart{
     margin-left: 8.667%;
@@ -331,9 +328,10 @@ font-weight: 900 !important;
     padding-bottom: 5%;
 }
 .logo2 img{
-    width: 30%;
+    width: 15%;
     padding-top: 5%;
 }
+
 
 @media only screen and (max-width:800px) {
     .reseaux img{
