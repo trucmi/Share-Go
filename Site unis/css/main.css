@@ -138,7 +138,7 @@ textarea {
    ========================================================================== */
 body{
     color: white;
-    background-image: url("../img/phil-coffman-161251-unsplash.jpg");
+    background-image: url("../img/KEVIN.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Raleway', sans-serif !important;
@@ -153,6 +153,9 @@ body{
 }
 .logo img{
     width:40%;
+}
+.fond{
+    background-color: rgba(0,0,0,0.2);
 }
 /*
 Css pour les logo des réseaux sociaux
@@ -196,7 +199,7 @@ Css pour les logo des réseaux sociaux
     -webkit-border-radius: 50px !important;
     -moz-border-radius: 50px !important;
     border-radius: 50px !important;
-    background-color: transparent !important;
+    background-color: #ABE65A;
     border: 1px white solid !important;
 }
 
