@@ -16,9 +16,6 @@
         <li>Your controller at <code><a href="{{ 'src/Controller/AddBackpackerController.phpp'|file_link(0) }}">src/Controller/AdBackpackerController.php</a></code></li>
         <li>Your template at <code><a href="{{ 'templates/add_backpacker/index.html.twig'|file_link(0) }}">templates/ad_backpacker/index.html.twig</a></code></li>
     </ul>
-
-    {{ form_start(form) }}
-    {{ form_widget(form) }}
-    {{ form_end(form) }}
+    {{ form(form) }}
 </div>
 {% endblock %}
