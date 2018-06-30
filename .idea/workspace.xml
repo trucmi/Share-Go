@@ -2,9 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f336743-491f-4e20-8af8-fe188d50c8eb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Share-Go.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Share-Go.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site unis/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Site unis/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site unis/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Site unis/index2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site-symfony/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Site-symfony/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site-symfony/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/Site-symfony/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site-symfony/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Site-symfony/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site-symfony/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Site-symfony/config/routes.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site-symfony/src/Controller/AddHostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Site-symfony/src/Controller/AddHostController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site-symfony/src/Controller/SecurityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Site-symfony/src/Controller/SecurityController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site-symfony/src/Entity/Hotes.php" beforeDir="false" afterPath="$PROJECT_DIR$/Site-symfony/src/Entity/Hotes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site-symfony/src/Entity/Task.php" beforeDir="false" afterPath="$PROJECT_DIR$/Site-symfony/src/Entity/Task.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site-symfony/src/Entity/Users.php" beforeDir="false" afterPath="$PROJECT_DIR$/Site-symfony/src/Entity/Users.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site-symfony/templates/ad_backpacker/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Site-symfony/templates/ad_backpacker/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site-symfony/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Site-symfony/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site-symfony/templates/security/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Site-symfony/templates/security/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site-symfony/templates/update_host/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Site-symfony/templates/update_host/index.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,35 +30,7 @@
     <pharConfigPath />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Site unis/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="51" selection-start-line="51" selection-end-line="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Site unis/index2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1224">
-              <caret line="72" column="78" selection-start-line="72" selection-start-column="78" selection-end-line="72" selection-end-column="78" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Site unis/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="198" column="41" selection-start-line="198" selection-start-column="41" selection-end-line="200" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -75,9 +60,9 @@
       <list>
         <option value="$PROJECT_DIR$/Site unis/mentions-legales.html" />
         <option value="$PROJECT_DIR$/Site unis/CGU.html" />
-        <option value="$PROJECT_DIR$/Site unis/index.html" />
-        <option value="$PROJECT_DIR$/Site unis/index2.html" />
         <option value="$PROJECT_DIR$/Site unis/css/main.css" />
+        <option value="$PROJECT_DIR$/Site unis/index2.html" />
+        <option value="$PROJECT_DIR$/Site unis/index.html" />
       </list>
     </option>
   </component>
@@ -88,7 +73,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/Site-symfony/package.json" />
+    </packageJsonPaths>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -179,6 +166,7 @@
       <path value="$PROJECT_DIR$/Site-symfony/vendor/symfony/debug-pack" />
       <path value="$PROJECT_DIR$/Site-symfony/vendor/sensio/framework-extra-bundle" />
       <path value="$PROJECT_DIR$/Site-symfony/vendor/symfony/doctrine-bridge" />
+      <path value="$PROJECT_DIR$/Site-symfony/vendor/symfony/webpack-encore-pack" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -197,6 +185,11 @@
             <path>
               <item name="Share-Go" type="b2602c69:ProjectViewProjectNode" />
               <item name="Share-Go" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Share-Go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Share-Go" type="462c0819:PsiDirectoryNode" />
+              <item name="Site-symfony" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -241,6 +234,9 @@
       <workItem from="1529002861799" duration="624000" />
       <workItem from="1529066074977" duration="1600000" />
       <workItem from="1529582250609" duration="148000" />
+      <workItem from="1529592295360" duration="713000" />
+      <workItem from="1529658657625" duration="235000" />
+      <workItem from="1529773503547" duration="144000" />
     </task>
     <task id="LOCAL-00001" summary="changement dans le CSS">
       <created>1528969393634</created>
@@ -263,17 +259,23 @@
       <option name="project" value="LOCAL" />
       <updated>1529582306209</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Plus dans le site symfo">
+      <created>1529592334312</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1529592334312</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17727000" />
+    <option name="totallyTimeSpent" value="18819000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24934895" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2154948" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -297,19 +299,19 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24934895" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -325,9 +327,73 @@
     <MESSAGE value="changement dans le CSS" />
     <MESSAGE value="Couleur verte" />
     <MESSAGE value="Ajout du symfo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout du symfo" />
+    <MESSAGE value="Plus dans le site symfo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Plus dans le site symfo" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Site unis/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1479">
+          <caret line="87" column="40" lean-forward="true" selection-start-line="87" selection-start-column="40" selection-end-line="87" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Site unis/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="72" column="25" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Site unis/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3400">
+          <caret line="200" column="3" selection-start-line="200" selection-start-column="3" selection-end-line="200" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Site unis/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Site unis/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="72" column="78" selection-start-line="72" selection-start-column="78" selection-end-line="72" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Site unis/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3400">
+          <caret line="200" column="3" selection-start-line="200" selection-start-column="3" selection-end-line="200" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Site unis/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Site unis/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="72" column="78" selection-start-line="72" selection-start-column="78" selection-end-line="72" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Site unis/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3366">
+          <caret line="198" column="41" selection-start-line="198" selection-start-column="41" selection-end-line="200" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Site unis/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="867">
@@ -574,24 +640,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Site unis/index2.html">
+    <entry file="file://$PROJECT_DIR$/Site unis/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="72" column="78" selection-start-line="72" selection-start-column="78" selection-end-line="72" selection-end-column="78" />
+        <state relative-caret-position="170">
+          <caret line="87" column="40" selection-start-line="87" selection-start-column="40" selection-end-line="87" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Site unis/index.html">
+    <entry file="file://$PROJECT_DIR$/Site-symfony/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Site-symfony/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="242">
+          <caret line="48" column="10" lean-forward="true" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Site unis/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="72" column="25" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="70" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Site unis/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="198" column="41" selection-start-line="198" selection-start-column="41" selection-end-line="200" selection-end-column="35" />
+        <state relative-caret-position="267">
+          <caret line="200" column="3" selection-start-line="200" selection-start-column="3" selection-end-line="200" selection-end-column="3" />
         </state>
       </provider>
     </entry>
