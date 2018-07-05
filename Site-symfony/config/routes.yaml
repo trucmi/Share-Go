@@ -1,5 +1,0 @@
-index:
-    path: /
-    defaults: { _controller: 'App\Controller\AddHostController::index' }
-logout:
-    path: /logout
