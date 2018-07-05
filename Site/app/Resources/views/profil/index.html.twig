@@ -1,0 +1,41 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Share&Go{% endblock %}
+
+{% block body %}
+<div class="globale">
+    <div>
+        <h1>Mon profil</h1>
+    </div>
+        <div class="fond" style="background-image: url({{ asset('image/ProfilBackpacker.jpg') }});">
+            <div class="carre">
+                {% if app.user.image %}
+                    <img src="{{ asset('uploads/user/' ~ app.user.image) }}">
+                {% else %}
+                    <img src="{{ asset('image/peru.jpg' ) }}">
+                {% endif %}
+            </div>
+            <div class="tex">
+                 <p>{{ app.user.name }} {{ app.user.lastname }}</p>
+                <p> {{ app.user.pays }}</p>
+                <p>{{ app.user.langue }}</p>
+                {% if app.user.backpacker %}
+                    <a href="/profil/edit_backpacker">Modifier le profil</a>
+                {% endif %}
+                {% if app.user.host %}
+                    <a href="/profil/edit_host">Modifier le profil</a>
+                {% endif %}
+            </div>
+        </div>
+    <div class="destinationprofil">
+        <div class="col-2">
+            <p>Type de voyageur:</p>
+            <p>{{ app.user.Experience }}</p>
+        </div>
+        <div class="col-2">
+            <p>Destination</p>
+            <p>{{ app.user.destination }}</p>
+        </div>
+</div>
+        </div>
+{% endblock %}

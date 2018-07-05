@@ -1,0 +1,37 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Share&Go{% endblock %}
+
+{% block body %}
+<style>
+    .example-wrapper { font: 18px/1.5 sans-serif; }
+</style>
+
+<div class="example-wrapper">
+    <div class="verteco"  style="background-image: url({{ asset('image/seconnecter.png') }});">
+        <div class="logoco ">
+            <h1>Connexion </h1>
+        </div>
+    {% if error %}
+        <div>{{ error.messageKey|trans(error.messageData, 'security') }}</div>
+    {% endif %}
+
+        <form action="{{ path('login') }}" method="post">
+            <label for="password">Email:</label>
+            <input type="text" id="username" name="_username" placeholder="Votre email"  />
+
+            <label for="password">Mot de passe:</label>
+            <input type="password" id="password" name="_password" />
+
+
+            <button type="submit">Je me connecte</button>
+        </form>
+
+        <div class="versinscrit">
+            <p>Pas de compte ?</p>
+            <a href="/add_backpacker">Créer un compte</a>
+
+        </div>
+    </div>
+</div>
+{% endblock %}

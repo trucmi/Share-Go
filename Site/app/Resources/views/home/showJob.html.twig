@@ -1,0 +1,61 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Share&Go{% endblock %}
+{% block body %}
+    <article class="ecart">
+        <form class="form-inline mt-2 mt-md-0" method="get" action="">
+            <input class="form-control mr-sm-2" type="text" placeholder="" aria-label="Search">
+            <button type="submit" class="loupe"><img src="{{ asset('image/search.svg') }}"> </button>
+        </form>
+        {% if job.image %}
+        <img src="{{ asset('uploads/job/' ~ job.image) }}" class="arronjob">
+        {% else %}
+            <img src="{{ asset('image/peru.jpg' ) }}" class="arronjob">
+        {% endif %}
+    <div class="padding">
+        <p class="pays">{{ job.pays }}</p>
+        <h1>{{ job.title }}</h1>
+        <span class="info">
+            <span class="col-2">
+               <p>{{ job.nombre }} voyageurs maximum</p>
+            </span>
+        {%  if job.type == 'Argent' %}
+            <span class="col-2">
+                <p>Rémunération incluse</p>
+            <img src="{{ asset('image/argent-picto.png') }}" class="picto">
+            </span>
+
+        {%  endif %}
+        {%  if job.type == 'Hébergement' %}
+            <span class="col-2">
+            <p>Hébergement inclus</p>
+            <img src="{{ asset('image/lit-picto.png') }}" class="picto">
+            </span>
+        {%  endif %}
+        </span>
+        <span class="info">
+            {%  if job.wifi == 'oui' %}
+                <span class="col-2">
+                <p>Wifi inclus</p>
+            </span>
+            {%  endif %}
+            <span class="col-2 langue">
+               <p>{{ job.Langue }}</p>
+            </span>
+        </span>
+        <p class="descript">{{ job.description }}</p>
+
+        <p>Me contacter: {{ user.username }}</p>
+
+    </div>
+    </article>
+    <footer>
+        <span class="reseaux">
+            <a href="https://twitter.com/shareandgoFR"><img src=" {{ asset('image/picto-twitter.svg') }}"></a>
+            <a href="https://www.instagram.com/shareandgoFR/"><img src=" {{ asset('image/picto-insta.svg') }}"></a>
+            <a href="https://www.facebook.com/shareandgoFR/"><img src=" {{ asset('image/picto-fb.svg') }}"></a>
+        </span>
+
+    </footer>
+{% endblock %}
+

@@ -1,0 +1,24 @@
+
+{% extends 'base.html.twig' %}
+
+{% block title %}Share&Go{% endblock %}
+{% block body %}
+    {{ form_start(form) }}
+    {{ form_row(form.username) }}
+    {{ form_row(form.lastname) }}
+    {{ form_row(form.name) }}
+    {{ form_row(form.plainPassword.first) }}
+    {{ form_row(form.plainPassword.second) }}
+    {{ form_row(form.age) }}
+    {{ form_row(form.langue) }}
+    {{ form_row(form.pays) }}
+    {{ form_row(form.destination) }}
+    {{ form_row(form.Experience) }}
+    {{ form_row(form.tel) }}
+    {{ form_row(form.image) }}
+    <button type="submit">Modifier</button>
+    <a href="{{ path('profil') }}">Retour à mon profil</a>
+
+
+    {{ form_end(form) }}
+{% endblock %}

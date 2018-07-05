@@ -1,0 +1,34 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Share&Go{% endblock %}
+
+{% block body %}
+    <article class="blog">
+        <form class="form-inline mt-2 mt-md-0" method="get" action="">
+            <input class="form-control mr-sm-2" type="text" placeholder="" aria-label="Search">
+            <button type="submit" class="loupe"><img src="{{ asset('image/search.svg') }}"> </button>
+        </form>
+        {% if article.image %}
+            <img src="{{ asset('uploads/brochure/' ~ article.image) }}" >
+        {% else %}
+            <img src="{{ asset('image/peru.jpg' ) }}" >
+        {% endif %}
+        <div class="blanc">
+        <p class="pays">{{ article.pays }} </p>
+
+            <p>{{ user.name }} {{ user.lastname }}</p>
+            <h1>{{ article.title }}</h1>
+            <p>{{ article.description }}</p>
+        </div>
+    </article>
+
+    <footer>
+        <span class="reseaux">
+            <a href="https://twitter.com/shareandgoFR"><img src=" {{ asset('image/picto-twitter.svg') }}"></a>
+            <a href="https://www.instagram.com/shareandgoFR/"><img src=" {{ asset('image/picto-insta.svg') }}"></a>
+            <a href="https://www.facebook.com/shareandgoFR/"><img src=" {{ asset('image/picto-fb.svg') }}"></a>
+        </span>
+
+    </footer>
+{% endblock %}
+

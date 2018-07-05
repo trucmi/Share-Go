@@ -1,0 +1,112 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Share&Go{% endblock %}
+
+{% block body %}
+    <!--- Comment appelle-t-on un Pakistanais qui voyage avec un sac à dos ?
+ Un Packpacker -->
+<div>
+    <div id="pop">
+        <p>En poursuivant votre navigation sur ce site , vous acceptez l'utilisationde cookies permettant de réaliser des statistique de visite et d'analyser votre navigation </p>
+        <div id="fermer"><p>J'accepte</p></div>
+    </div>
+<div class="example-wrapper">
+
+    <!--début de la div vidéo -->
+    <div class="video">
+        <video autoplay muted loop poster="{{ asset('image/Capture.PNG') }}" id="bgvid">
+            <source src="{{ asset('image/Backgroundmobil.webm') }}" type="video/webm">
+            <source src="{{ asset('image/Backgroundmobil.mp4') }}" type="video/mp4">
+        </video>
+        <h1 class=" col-4">Vivez des expériences uniques à travers la culture locale</h1>
+        {{ render(controller(
+            'AppBundle\\Controller\\HomeController::searchBarAction'
+        )) }}
+
+        {# exemple d'affichage suite à recherche #}
+        {# end of exemple d'affichage #}
+    </div>
+    <!--fin de la div vidéo-->
+    <!-- début de la partie blanche -->
+        <div class="blanc">
+            <div class="astuce" >
+                {% if allResults is defined %}
+                    {% for item in allResults %}
+                        <div>
+                        <span>Vos résultats :</span>
+                            <a href="/job/{{ item.id }}">
+
+                        <p style="margin: 10px 5px">{{ item.title }}</p>
+                        <p style="margin: 10px 5px">{{ item.description }}
+                            </a>
+                        </div>
+                    {% endfor %}
+                {% endif %}
+            </div>
+            <h2>Découvrez des expériences authentiques</h2>
+            {% for job in jobs %}
+                <div class="proposition col-2">
+                    <a href="/jobs/{{ job.id }}">
+                        {% if job.image %}
+                            <img src="{{ asset('uploads/job/' ~ job.image) }}" class="arronjob">
+                        {% else %}
+                            <img src="{{ asset('image/peru.jpg' ) }}" class="arronjob">
+                        {% endif %}
+                    <p>{{  job.title}}</p>
+                    <p>{{ job.type }}</p>
+                    </a>
+                </div>
+            {% endfor %}
+            </div>
+    <!-- fin de la partie blanche -->
+    <!-- début de la partie verte -->
+    <div class="verte" style="background-image: url({{ asset('image/partieverte.png') }});">
+        <div class="padding">
+        <h2>Explorez le monde autrement</h2>
+            {% for article in articles %}
+
+                <div class="proposition col-2">
+                    <a href="/articles/{{ article.id }}">
+                    <img src="{{ asset('uploads/brochure/' ~ article.image) }}">
+                    <p>{{  article.title}}</p>
+                    <p>{{ article.categorie }}</p>
+                    </a>
+                </div>
+
+            {% endfor %}
+        </div>
+    </div>
+    <!-- fin de la partie verte -->
+    <!-- début inscrit -->
+    {% if is_granted('ROLE_USER') == false %}
+    <div class="inscrit">
+        <h2>S'inscrire</h2>
+        <p>Le bonheur n’est réel que lorsqu’il est partagé.</p>
+        <p>Partagez votre culture au delà de vos terres.</p>
+            <p>Je rejoins l’aventure :</p>
+<div class="marge">
+        <div class="arrondi">
+            <a href="/add_backpacker"><p>En tant que voyageur</p></a>
+        </div>
+        <div class="arrondi">
+            <a href="/add_host"><p>En tant qu’hôte</p></a>
+        </div>
+</div>
+        {% endif %}
+        <script type="text/javascript" href="{{ asset('assets/js/app.fr') }}"></script>
+        <script type="text/javascript" href="{{ asset('assets/js/jquery.fr') }}"></script>
+    <!-- fin de la partie verte -->
+</div>
+</div>
+    <footer>
+        <span class="reseaux">
+            <a href="https://twitter.com/shareandgoFR"><img src=" {{ asset('image/picto-twitter.svg') }}"></a>
+            <a href="https://www.instagram.com/shareandgoFR/"><img src=" {{ asset('image/picto-insta.svg') }}"></a>
+            <a href="https://www.facebook.com/shareandgoFR/"><img src=" {{ asset('image/picto-fb.svg') }}"></a>
+        </span>
+
+    </footer>
+</div>
+
+{% endblock %}
+

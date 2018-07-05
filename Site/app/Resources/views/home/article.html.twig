@@ -1,0 +1,71 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Share&Go{% endblock %}
+
+{% block body %}
+    <!--- Comment appelle-t-on un Pakistanais qui voyage avec un sac à dos ?
+ Un Packpacker -->
+
+
+<div class="example-wrapper" style="padding-top: 10vh">
+    <form class="form-inline mt-2 mt-md-0" method="get" action="">
+        <input class="form-control mr-sm-2" type="text" placeholder="" aria-label="Search">
+        <button type="submit" class="loupe"><img src="{{ asset('image/search.svg') }}"> </button>
+    </form>
+    <div class="blanc1">
+        <div class="padding">
+        <h2>Explorez le monde autrement</h2>
+            {% for article in articles %}
+                <div class="proposition col-2">
+                    <a href="/articles/{{ article.id }}">
+                    <img src="{{ asset('uploads/brochure/' ~ article.image) }}">
+                    <p>{{  article.title}}</p>
+                    <p>{{ article.categorie }}</p>
+                    {% if article.categorie == "A voir absolument "  %}
+                        <img src="{{ asset('image/picto-oeil.png') }}" class="picto">
+                    {% endif %}
+            </a>
+                </div>
+
+            {% endfor %}
+        </div>
+    </div>
+    <div class="vertearti"  style="background-image: url({{ asset('image/fondarticle.png') }});">
+        <h2>Trouvez votre destination</h2>
+        <a href="#">
+            <img src="{{ asset('image/peru.jpg') }}">
+            <p>Pérou</p>
+
+        </a>
+
+    </div>
+    <div class="blanc1">
+        <div class="padding">
+            <h2>Explorez les chroniques les plus appréciées</h2>
+            {% for article in articles %}
+
+                <div class="proposition col-2">
+                    <a href="/articles/{{ article.id }}">
+                    <img src="{{ asset('uploads/brochure/' ~ article.image) }}">
+                    <p>{{  article.title}}</p>
+                    <p>{{ article.categorie }}</p>
+                    {% if article.categorie == "A voir absolument "  %}
+                        <img src="{{ asset('image/picto-oeil.png') }}" class="picto">
+                    {% endif %}
+                    </a>
+                </div>
+
+            {% endfor %}
+
+        </div>
+
+    <footer>
+        <span class="reseaux">
+            <a href="https://twitter.com/shareandgoFR"><img src=" {{ asset('image/picto-twitter.svg') }}"></a>
+            <a href="https://www.instagram.com/shareandgoFR/"><img src=" {{ asset('image/picto-insta.svg') }}"></a>
+            <a href="https://www.facebook.com/shareandgoFR/"><img src=" {{ asset('image/picto-fb.svg') }}"></a>
+        </span>
+
+    </footer>
+{% endblock %}
+
