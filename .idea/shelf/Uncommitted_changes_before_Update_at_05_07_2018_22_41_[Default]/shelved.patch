@@ -1,0 +1,953 @@
+Index: Site/.idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Site/.idea/modules.xml	(date 1530002573657)
++++ Site/.idea/modules.xml	(date 1530002573657)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/Site.iml" filepath="$PROJECT_DIR$/.idea/Site.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: Site/.idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Site/.idea/workspace.xml	(date 1530818687942)
++++ Site/.idea/workspace.xml	(date 1530818687942)
+@@ -0,0 +1,782 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ChangeListManager">
++    <list default="true" id="858bf921-306b-4b19-82d7-0d7111102242" name="Default" comment="">
++      <change afterPath="$PROJECT_DIR$/app/Resources/views/home/cookies.html.twig" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/app/Resources/views/home/mentions.html.twig" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/app/Resources/views/home/searchBar.html.twig" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/AppBundle/Services/Concatenate.php" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/web/image/photodesk.jpg" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/app/Resources/views/ad_backpacker/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/ad_backpacker/index.html.twig" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/app/Resources/views/home/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/home/index.html.twig" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/app/Resources/views/home/job.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/home/job.html.twig" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/app/Resources/views/home/showJob.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/home/showJob.html.twig" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/app/Resources/views/update_host/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/update_host/index.html.twig" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/app/config/services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/services.yml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/AddJobController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/AddJobController.php" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/HomeController.php" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Job.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Job.php" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/AppBundle/Repository/ArticleRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Repository/ArticleRepository.php" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/AppBundle/Repository/JobRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Repository/JobRepository.php" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/web/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/app.css" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/web/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/app.js" afterDir="false" />
++    </list>
++    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
++    <option name="TRACKING_ENABLED" value="true" />
++    <option name="SHOW_DIALOG" value="false" />
++    <option name="HIGHLIGHT_CONFLICTS" value="true" />
++    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
++    <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
++    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
++  </component>
++  <component name="FileEditorManager">
++    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
++      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
++          <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="167">
++              <caret line="82" column="12" selection-start-line="82" selection-start-column="12" selection-end-line="82" selection-end-column="12" />
++            </state>
++          </provider>
++        </entry>
++      </file>
++      <file leaf-file-name="HomeController.php" pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/HomeController.php">
++          <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="2448">
++              <caret line="158" column="27" selection-start-line="158" selection-start-column="27" selection-end-line="158" selection-end-column="27" />
++              <folding>
++                <element signature="e#73#102#0#PHP" expanded="true" />
++              </folding>
++            </state>
++          </provider>
++        </entry>
++      </file>
++      <file leaf-file-name="app.css" pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/web/css/app.css">
++          <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="267">
++              <caret line="773" column="15" selection-start-line="773" selection-start-column="15" selection-end-line="773" selection-end-column="15" />
++            </state>
++          </provider>
++        </entry>
++      </file>
++      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/app/Resources/views/home/index.html.twig">
++          <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="58">
++              <caret line="84" column="28" selection-start-line="84" selection-start-column="28" selection-end-line="87" selection-end-column="24" />
++            </state>
++          </provider>
++        </entry>
++      </file>
++      <file leaf-file-name="parameters.yml" pinned="false" current-in-tab="true">
++        <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
++          <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="102">
++              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
++            </state>
++          </provider>
++        </entry>
++      </file>
++    </leaf>
++  </component>
++  <component name="FindInProjectRecents">
++    <findStrings>
++      <find>loupe</find>
++      <find>blanc</find>
++      <find>blanc1.job</find>
++      <find>exam</find>
++      <find>blanc1</find>
++      <find>body</find>
++      <find>margin: 0 5%</find>
++      <find>nav ul li:nth-child(4)</find>
++      <find>setdes</find>
++      <find>$destination</find>
++      <find>back</find>
++      <find>backgrousn</find>
++      <find>background-ima</find>
++      <find>background</find>
++      <find>image</find>
++      <find>ima</find>
++      <find>searchBarAction</find>
++      <find>blog</find>
++      <find>titre</find>
++      <find>.logo</find>
++      <find>.burger__button__icon</find>
++      <find>padding-top</find>
++      <find>padding-top: 10vh</find>
++      <find>background-color</find>
++      <find>#barre</find>
++      <find>background-colo</find>
++      <find>pop</find>
++      <find>#pop</find>
++      <find>desk</find>
++      <find>footer</find>
++    </findStrings>
++    <replaceStrings>
++      <replace />
++    </replaceStrings>
++  </component>
++  <component name="Git.Settings">
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
++  <component name="IdeDocumentHistory">
++    <option name="CHANGED_PATHS">
++      <list>
++        <option value="$PROJECT_DIR$/src/AppBundle/Form/ProfilEditHostType.php" />
++        <option value="$PROJECT_DIR$/src/AppBundle/Repository/UsersRepository.php" />
++        <option value="$PROJECT_DIR$/src/AppBundle/Controller/SecurityController.php" />
++        <option value="$PROJECT_DIR$/app/config/security.yml" />
++        <option value="$PROJECT_DIR$/app/config/routing.yml" />
++        <option value="$PROJECT_DIR$/src/AppBundle/Controller/AddarticleController.php" />
++        <option value="$PROJECT_DIR$/src/AppBundle/Repository/searchBarType.php" />
++        <option value="$PROJECT_DIR$/app/Resources/views/home/result.html.twig" />
++        <option value="$PROJECT_DIR$/app/Resources/views/profil/edit_host.html.twig" />
++        <option value="$PROJECT_DIR$/app/Resources/views/addarticle/index.html.twig" />
++        <option value="$PROJECT_DIR$/src/AppBundle/Entity/Article.php" />
++        <option value="$PROJECT_DIR$/src/AppBundle/Entity/Pays.php" />
++        <option value="$PROJECT_DIR$/src/AppBundle/Entity/Langue.php" />
++        <option value="$PROJECT_DIR$/app/Resources/views/security/index.html.twig" />
++        <option value="$PROJECT_DIR$/src/AppBundle/Controller/AddHostController.php" />
++        <option value="$PROJECT_DIR$/src/AppBundle/Form/AddUsersType.php" />
++        <option value="$PROJECT_DIR$/src/AppBundle/Form/AddHostType.php" />
++        <option value="$PROJECT_DIR$/src/AppBundle/Form/AddArticleType.php" />
++        <option value="$PROJECT_DIR$/app/Resources/views/home/show.html.twig" />
++        <option value="$PROJECT_DIR$/src/AppBundle/Form/AddJobType.php" />
++        <option value="$PROJECT_DIR$/app/Resources/views/home/article.html.twig" />
++        <option value="$PROJECT_DIR$/app/Resources/views/home/showArticle.html.twig" />
++        <option value="$PROJECT_DIR$/src/AppBundle/Controller/ProfilController.php" />
++        <option value="$PROJECT_DIR$/src/AppBundle/Controller/AddBackpackerController.php" />
++        <option value="$PROJECT_DIR$/src/AppBundle/Entity/Users.php" />
++        <option value="$PROJECT_DIR$/app/Resources/views/profil/edit_backpacker.html.twig" />
++        <option value="$PROJECT_DIR$/app/Resources/views/profil/index.html.twig" />
++        <option value="$PROJECT_DIR$/src/AppBundle/Form/ProfilEditType.php" />
++        <option value="$PROJECT_DIR$/app/config/config.yml" />
++        <option value="$PROJECT_DIR$/src/AppBundle/Entity/Job.php" />
++        <option value="$PROJECT_DIR$/src/.htaccess" />
++        <option value="$PROJECT_DIR$/src/AppBundle/Repository/JobRepository.php" />
++        <option value="$PROJECT_DIR$/src/AppBundle/Repository/ArticleRepository.php" />
++        <option value="$PROJECT_DIR$/app/config/services.yml" />
++        <option value="$PROJECT_DIR$/src/AppBundle/Service/Concatenate.php" />
++        <option value="$PROJECT_DIR$/app/Resources/views/home/showJob.html.twig" />
++        <option value="$PROJECT_DIR$/app/Resources/views/home/searchBar.html.twig" />
++        <option value="$PROJECT_DIR$/app/Resources/views/home/job.html.twig" />
++        <option value="$PROJECT_DIR$/src/AppBundle/Controller/AddJobController.php" />
++        <option value="$PROJECT_DIR$/web/js/app.js" />
++        <option value="$PROJECT_DIR$/app/Resources/views/ad_backpacker/index.html.twig" />
++        <option value="$PROJECT_DIR$/app/Resources/views/update_host/index.html.twig" />
++        <option value="$PROJECT_DIR$/app/Resources/views/home/CGU.html.twig" />
++        <option value="$PROJECT_DIR$/app/Resources/views/home/mentions.html.twig" />
++        <option value="$PROJECT_DIR$/src/AppBundle/Controller/HomeController.php" />
++        <option value="$PROJECT_DIR$/app/Resources/views/home/cookies.html.twig" />
++        <option value="$PROJECT_DIR$/app/Resources/views/home/index.html.twig" />
++        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
++        <option value="$PROJECT_DIR$/web/css/app.css" />
++        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
++      </list>
++    </option>
++  </component>
++  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
++  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
++  <component name="JsGulpfileManager">
++    <detection-done>true</detection-done>
++    <sorting>DEFINITION_ORDER</sorting>
++  </component>
++  <component name="NodePackageJsonFileManager">
++    <packageJsonPaths />
++  </component>
++  <component name="PhpWorkspaceProjectConfiguration">
++    <include_path>
++      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
++      <path value="$PROJECT_DIR$/vendor/psr/log" />
++      <path value="$PROJECT_DIR$/vendor/psr/link" />
++      <path value="$PROJECT_DIR$/vendor/psr/container" />
++      <path value="$PROJECT_DIR$/vendor/psr/cache" />
++      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
++      <path value="$PROJECT_DIR$/vendor/jdorn/sql-formatter" />
++      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
++      <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
++      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
++      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
++      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
++      <path value="$PROJECT_DIR$/vendor/twig/twig" />
++      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
++      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
++      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
++      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle" />
++      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
++      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle" />
++      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
++      <path value="$PROJECT_DIR$/vendor/fig/link-util" />
++      <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
++      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
++      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bundle" />
++      <path value="$PROJECT_DIR$/vendor/symfony/symfony" />
++      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-util" />
++      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
++      <path value="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle" />
++      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php56" />
++      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
++      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
++      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-apcu" />
++      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
++      <path value="$PROJECT_DIR$/vendor/incenteev/composer-parameter-handler" />
++      <path value="$PROJECT_DIR$/vendor/composer" />
++      <path value="$PROJECT_DIR$/vendor/sensio/distribution-bundle" />
++      <path value="$PROJECT_DIR$/vendor/sensio/generator-bundle" />
++      <path value="$PROJECT_DIR$/vendor/sensiolabs/security-checker" />
++      <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
++    </include_path>
++  </component>
++  <component name="ProjectFrameBounds" extendedState="6">
++    <option name="x" value="950" />
++    <option name="width" value="979" />
++    <option name="height" value="1040" />
++  </component>
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
++  <component name="ProjectView">
++    <navigator proportions="" version="1">
++      <foldersAlwaysOnTop value="true" />
++    </navigator>
++    <panes>
++      <pane id="Scope" />
++      <pane id="ProjectPane">
++        <subPane>
++          <expand>
++            <path>
++              <item name="Site" type="b2602c69:ProjectViewProjectNode" />
++              <item name="Site" type="462c0819:PsiDirectoryNode" />
++            </path>
++            <path>
++              <item name="Site" type="b2602c69:ProjectViewProjectNode" />
++              <item name="Site" type="462c0819:PsiDirectoryNode" />
++              <item name="app" type="462c0819:PsiDirectoryNode" />
++            </path>
++            <path>
++              <item name="Site" type="b2602c69:ProjectViewProjectNode" />
++              <item name="Site" type="462c0819:PsiDirectoryNode" />
++              <item name="app" type="462c0819:PsiDirectoryNode" />
++              <item name="Resources" type="462c0819:PsiDirectoryNode" />
++            </path>
++            <path>
++              <item name="Site" type="b2602c69:ProjectViewProjectNode" />
++              <item name="Site" type="462c0819:PsiDirectoryNode" />
++              <item name="app" type="462c0819:PsiDirectoryNode" />
++              <item name="Resources" type="462c0819:PsiDirectoryNode" />
++              <item name="views" type="462c0819:PsiDirectoryNode" />
++            </path>
++            <path>
++              <item name="Site" type="b2602c69:ProjectViewProjectNode" />
++              <item name="Site" type="462c0819:PsiDirectoryNode" />
++              <item name="web" type="462c0819:PsiDirectoryNode" />
++            </path>
++            <path>
++              <item name="Site" type="b2602c69:ProjectViewProjectNode" />
++              <item name="Site" type="462c0819:PsiDirectoryNode" />
++              <item name="web" type="462c0819:PsiDirectoryNode" />
++              <item name="image" type="462c0819:PsiDirectoryNode" />
++            </path>
++          </expand>
++          <select />
++        </subPane>
++      </pane>
++    </panes>
++  </component>
++  <component name="PropertiesComponent">
++    <property name="WebServerToolWindowFactoryState" value="false" />
++    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Travail/Projet compétition/Share-Go" />
++    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
++    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
++    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
++    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
++    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/app/Resources/views/home/mentions.html.twig" />
++  </component>
++  <component name="RecentsManager">
++    <key name="MoveFile.RECENT_KEYS">
++      <recent name="C:\wamp\www\Site\web\css" />
++      <recent name="C:\wamp\www\Site\web\image" />
++    </key>
++    <key name="CopyFile.RECENT_KEYS">
++      <recent name="C:\wamp\www\Site\web\image" />
++      <recent name="C:\wamp\www\Site\app\Resources\views\home" />
++      <recent name="C:\wamp\www\Site\src\AppBundle\Service" />
++      <recent name="C:\wamp\www\Site\src\AppBundle" />
++      <recent name="C:\wamp\www\Site\src\AppBundle\Repository" />
++    </key>
++  </component>
++  <component name="RunDashboard">
++    <option name="ruleStates">
++      <list>
++        <RuleState>
++          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
++        </RuleState>
++        <RuleState>
++          <option name="name" value="StatusDashboardGroupingRule" />
++        </RuleState>
++      </list>
++    </option>
++  </component>
++  <component name="SvnConfiguration">
++    <configuration />
++  </component>
++  <component name="TaskManager">
++    <task active="true" id="Default" summary="Default task">
++      <changelist id="858bf921-306b-4b19-82d7-0d7111102242" name="Default" comment="" />
++      <created>1530002573579</created>
++      <option name="number" value="Default" />
++      <option name="presentableId" value="Default" />
++      <updated>1530002573579</updated>
++      <workItem from="1530002574794" duration="19566000" />
++      <workItem from="1530034377985" duration="551000" />
++      <workItem from="1530040285021" duration="7787000" />
++      <workItem from="1530075427444" duration="2607000" />
++      <workItem from="1530080144536" duration="9414000" />
++      <workItem from="1530091029087" duration="12198000" />
++      <workItem from="1530112648300" duration="1480000" />
++      <workItem from="1530114853964" duration="1500000" />
++      <workItem from="1530166215075" duration="21193000" />
++      <workItem from="1530252944735" duration="25535000" />
++      <workItem from="1530377848303" duration="606000" />
++      <workItem from="1530380279842" duration="6700000" />
++      <workItem from="1530644555776" duration="6750000" />
++      <workItem from="1530733370743" duration="4433000" />
++      <workItem from="1530774917484" duration="3833000" />
++      <workItem from="1530779048652" duration="2895000" />
++      <workItem from="1530784081469" duration="1812000" />
++    </task>
++    <servers />
++  </component>
++  <component name="TimeTrackingManager">
++    <option name="totallyTimeSpent" value="128860000" />
++  </component>
++  <component name="ToolWindowManager">
++    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
++    <editor active="true" />
++    <layout>
++      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.16796875" />
++      <window_info anchor="bottom" id="TODO" order="11" />
++      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
++      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.32965517" />
++      <window_info anchor="right" id="Database" order="0" />
++      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
++      <window_info anchor="bottom" id="Version Control" order="4" />
++      <window_info anchor="bottom" id="Run" order="7" />
++      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
++      <window_info anchor="bottom" id="Terminal" order="3" />
++      <window_info id="Favorites" order="0" side_tool="true" />
++      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
++      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
++      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
++      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
++      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
++      <window_info anchor="bottom" id="Message" order="5" />
++      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
++      <window_info anchor="bottom" id="Find" order="6" weight="0.32965517" />
++    </layout>
++    <layout-to-restore>
++      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
++      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
++      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
++      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.16796875" />
++      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
++      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
++      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
++      <window_info anchor="bottom" id="TODO" order="11" />
++      <window_info anchor="bottom" id="Version Control" order="4" />
++      <window_info anchor="bottom" id="Run" order="7" />
++      <window_info anchor="bottom" id="Find" order="6" weight="0.32965517" />
++      <window_info anchor="right" id="Database" order="0" />
++      <window_info anchor="bottom" id="Terminal" order="3" />
++      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
++      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
++      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
++      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.32965517" />
++      <window_info anchor="bottom" id="Message" order="5" />
++      <window_info id="Favorites" order="0" side_tool="true" />
++    </layout-to-restore>
++  </component>
++  <component name="TypeScriptGeneratedFilesManager">
++    <option name="version" value="1" />
++  </component>
++  <component name="VcsContentAnnotationSettings">
++    <option name="myLimit" value="2678400000" />
++  </component>
++  <component name="XDebuggerManager">
++    <breakpoint-manager>
++      <breakpoints>
++        <line-breakpoint enabled="true" type="php">
++          <url>file://$PROJECT_DIR$/src/AppBundle/Form/ProfilEditType.php</url>
++          <line>13</line>
++          <option name="timeStamp" value="7" />
++        </line-breakpoint>
++      </breakpoints>
++      <option name="time" value="9" />
++    </breakpoint-manager>
++  </component>
++  <component name="editorHistoryManager">
++    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="102">
++          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/app/Resources/views/home/index.html.twig">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="3400">
++          <caret line="200" column="56" selection-start-line="200" selection-start-column="56" selection-end-line="200" selection-end-column="56" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="289">
++          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="204">
++          <caret line="12" selection-start-line="12" selection-end-line="12" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/web/css/app.css">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="12172">
++          <caret line="716" selection-start-line="716" selection-end-line="716" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="918">
++          <caret line="54" column="53" selection-start-line="54" selection-start-column="53" selection-end-line="54" selection-end-column="53" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/app/Resources/views/home/index.html.twig">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="1496">
++          <caret line="88" column="13" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="13" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/HomeController.php">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="1547">
++          <caret line="100" column="5" lean-forward="true" selection-start-line="100" selection-start-column="5" selection-end-line="100" selection-end-column="5" />
++          <folding>
++            <element signature="e#73#102#0#PHP" expanded="true" />
++          </folding>
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="289">
++          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="204">
++          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/web/css/app.css">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="12172">
++          <caret line="716" selection-start-line="716" selection-end-line="716" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="918">
++          <caret line="54" column="53" lean-forward="true" selection-start-line="54" selection-start-column="53" selection-end-line="54" selection-end-column="53" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/AddBackpackerController.php">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="357">
++          <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/AppBundle/Form/AddUsersType.php">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="323">
++          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/AppBundle/Form/AddArticleType.php">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="323">
++          <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="48" selection-end-column="41" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/app/Resources/views/profil/edit_backpacker.html.twig">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="289">
++          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Users.php">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="182">
++          <caret line="144" column="2" selection-start-line="144" selection-start-column="2" selection-end-line="165" selection-end-column="5" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/AppBundle/Form/ProfilEditHostType.php">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="17">
++          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/AppBundle/Form/ProfilEditType.php">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="510">
++          <caret line="86" column="63" lean-forward="true" selection-start-line="86" selection-start-column="63" selection-end-line="86" selection-end-column="63" />
++          <folding>
++            <element signature="e#115#142#0#PHP" expanded="true" />
++          </folding>
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/ProfilController.php">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="408">
++          <caret line="63" column="39" lean-forward="true" selection-start-line="50" selection-start-column="11" selection-end-line="63" selection-end-column="39" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="68">
++          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Article.php">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="221">
++          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="18" selection-end-column="15" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="-428">
++          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml.dist">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="221">
++          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_real.php">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="233">
++          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="102">
++          <caret line="6" column="69" lean-forward="true" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/web/app.php">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="357">
++          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/app/Resources/views/profil/index.html.twig">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="490">
++          <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="289">
++          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Job.php">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="527">
++          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/AppBundle/Services/Concatenate.php">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="153">
++          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/.htaccess">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="119">
++          <caret line="7" selection-start-line="7" selection-end-line="7" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/app/Resources/views/home/searchBar.html.twig">
++      <provider selected="true" editor-type-id="text-editor">
++        <state>
++          <caret column="70" selection-start-column="70" selection-end-column="70" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/AppBundle/Repository/ArticleRepository.php">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="-3">
++          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/AddJobController.php">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="541">
++          <caret line="68" selection-start-line="68" selection-end-line="68" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/AppBundle/Repository/JobRepository.php">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="374">
++          <caret line="31" column="30" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="30" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/app/Resources/views/home/showJob.html.twig">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="119">
++          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/app/Resources/views/home/job.html.twig">
++      <provider selected="true" editor-type-id="text-editor">
++        <state>
++          <caret column="30" selection-start-column="30" selection-end-column="30" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa15016.42596/tarteaucitron.js" />
++    <entry file="file://$PROJECT_DIR$/web/js/app.js">
++      <provider selected="true" editor-type-id="text-editor">
++        <state>
++          <caret column="1" selection-start-column="1" selection-end-column="1" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/app/Resources/views/update_host/index.html.twig">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="289">
++          <caret line="17" selection-start-line="17" selection-end-line="17" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/app/Resources/views/home/CGU.html.twig">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="85">
++          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/app/Resources/views/home/mentions.html.twig">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="102">
++          <caret line="6" column="61" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/app/Resources/views/home/cookies.html.twig">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="102">
++          <caret line="6" column="89" selection-start-line="6" selection-start-column="89" selection-end-line="6" selection-end-column="89" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/app/Resources/views/ad_backpacker/index.html.twig">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="357">
++          <caret line="21" selection-start-line="21" selection-end-line="22" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/app/config/services.yml">
++      <provider selected="true" editor-type-id="text-editor">
++        <state>
++          <caret column="22" selection-start-column="22" selection-end-column="22" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/HomeController.php">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="2448">
++          <caret line="158" column="27" selection-start-line="158" selection-start-column="27" selection-end-line="158" selection-end-column="27" />
++          <folding>
++            <element signature="e#73#102#0#PHP" expanded="true" />
++          </folding>
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/app/Resources/views/home/index.html.twig">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="58">
++          <caret line="84" column="28" selection-start-line="84" selection-start-column="28" selection-end-line="87" selection-end-column="24" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="167">
++          <caret line="82" column="12" selection-start-line="82" selection-start-column="12" selection-end-line="82" selection-end-column="12" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/web/css/app.css">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="267">
++          <caret line="773" column="15" selection-start-line="773" selection-start-column="15" selection-end-line="773" selection-end-column="15" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="102">
++          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
++        </state>
++      </provider>
++    </entry>
++  </component>
++</project>
+\ No newline at end of file
+Index: Site/.idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Site/.idea/misc.xml	(date 1530002573644)
++++ Site/.idea/misc.xml	(date 1530002573644)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="JavaScriptSettings">
++    <option name="languageLevel" value="ES6" />
++  </component>
++</project>
+\ No newline at end of file
+Index: Site/.idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Site/.idea/vcs.xml	(date 1530359971562)
++++ Site/.idea/vcs.xml	(date 1530359971562)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: Site/.idea/Site.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Site/.idea/Site.iml	(date 1530002594289)
++++ Site/.idea/Site.iml	(date 1530002594289)
+@@ -0,0 +1,50 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="WEB_MODULE" version="4">
++  <component name="NewModuleRootManager">
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src/AppBundle" isTestSource="false" packagePrefix="AppBundle\" />
++      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" packagePrefix="Tests\" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/annotations" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/cache" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/collections" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/common" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/dbal" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/doctrine-bundle" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/doctrine-cache-bundle" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/inflector" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/instantiator" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/lexer" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/orm" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/fig/link-util" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/incenteev/composer-parameter-handler" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/jdorn/sql-formatter" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/monolog/monolog" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/paragonie/random_compat" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/cache" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/container" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/link" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/log" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/simple-cache" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/sensio/distribution-bundle" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/sensio/framework-extra-bundle" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/sensio/generator-bundle" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/sensiolabs/security-checker" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/swiftmailer/swiftmailer" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/monolog-bundle" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/phpunit-bridge" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-apcu" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-ctype" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-intl-icu" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-mbstring" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-php56" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-php70" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-util" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/swiftmailer-bundle" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/symfony" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/twig/twig" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: Site/.idea/php.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Site/.idea/php.xml	(date 1530002594304)
++++ Site/.idea/php.xml	(date 1530002594304)
+@@ -0,0 +1,47 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="PhpIncludePathManager">
++    <include_path>
++      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
++      <path value="$PROJECT_DIR$/vendor/psr/log" />
++      <path value="$PROJECT_DIR$/vendor/psr/link" />
++      <path value="$PROJECT_DIR$/vendor/psr/container" />
++      <path value="$PROJECT_DIR$/vendor/psr/cache" />
++      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
++      <path value="$PROJECT_DIR$/vendor/jdorn/sql-formatter" />
++      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
++      <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
++      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
++      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
++      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
++      <path value="$PROJECT_DIR$/vendor/twig/twig" />
++      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
++      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
++      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
++      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle" />
++      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
++      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle" />
++      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
++      <path value="$PROJECT_DIR$/vendor/fig/link-util" />
++      <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
++      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
++      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bundle" />
++      <path value="$PROJECT_DIR$/vendor/symfony/symfony" />
++      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-util" />
++      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
++      <path value="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle" />
++      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php56" />
++      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
++      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
++      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-apcu" />
++      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
++      <path value="$PROJECT_DIR$/vendor/incenteev/composer-parameter-handler" />
++      <path value="$PROJECT_DIR$/vendor/composer" />
++      <path value="$PROJECT_DIR$/vendor/sensio/distribution-bundle" />
++      <path value="$PROJECT_DIR$/vendor/sensio/generator-bundle" />
++      <path value="$PROJECT_DIR$/vendor/sensiolabs/security-checker" />
++      <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
++    </include_path>
++  </component>
++  <component name="PhpProjectSharedConfiguration" php_language_level="5.5.0" />
++</project>
+\ No newline at end of file

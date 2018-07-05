@@ -1,0 +1,25 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Share&Go{% endblock %}
+
+{% block body %}
+    <div class="example-wrapper">
+        <div class="verteco" style="background-image: url({{ asset('image/sinscrire.png') }});">
+            <div class="logoco ">
+                <h1>Inscription </h1>
+                <div>
+                    <div class="off arrondi"><a href="/add_backpacker"><p>Voyageur</p></a></div>
+                    <div class="active arrondi"><a href="/add_host"><p>Hôte</p></a></div>
+                </div>
+            </div>
+            {{ form(form) }}
+        </div>
+        <p class="RGPD">En indiquant votre adresse mail ci-dessus, vous consentez à recevoir nos propositions commerciales par voie électronique. Vous pouvez vous désinscrire à tout moment en envoyant un mail à contact@sharego.fr</p>
+
+        <div class="versinscrit">
+            <p>Déjà inscrit?</p>
+            <a href="/login">Connexion</a>
+        </div>
+
+    </div>
+{% endblock %}

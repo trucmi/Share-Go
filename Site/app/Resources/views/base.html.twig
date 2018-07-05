@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html xmlns:og="http://ogp.me/ns#">
+<head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-WJQ9JK2');</script>
+    <!-- End Google Tag Manager -->
+    <meta property="og:title" content="Share&Go{" />
+    <meta property="og:type" content="home" />
+    <meta property="og:url" content="http://sharego.fr" />
+    <meta property="og:image" content="jpg" />
+
+    <meta charset="UTF-8">
+    <title>{% block title %}Share&Go{% endblock %}</title>
+    {% block stylesheets %}
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+        <link rel="icon" type="image/png" href="image/picto-logo-vert.png">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    {% endblock %}
+    <!-- Hotjar Tracking Code for Sharego.fr -->
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:934085,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+</head>
+
+<body>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WJQ9JK2');</script>
+<!-- End Google Tag Manager -->
+
+<div class="taille">
+    <!-- début de la nav-->
+    <nav class="burger">
+        <a href="/"><img class="logo" src="{{ asset('image/picto-logo-blanc.svg') }}"></a>
+        <a href="#" class="burger__button" id="burger-button">
+            <span class="burger__button__icon"></span>
+        </a>
+
+        <ul class="burger__menu">
+            {% if is_granted('ROLE_USER') == true %}
+            <li><a href="/profil">Mon Profil</a></li>
+            <li class="souligne"><a href="/logout">Déconnexion</a></li>
+            {% endif %}
+            {% if is_granted('ROLE_USER') == false %}
+            <li><a href="/add_host">Devenir hôte</a></li>
+            {% endif %}
+            <li><a href="/jobs">Jobs</a></li>
+            <li><a href="/articles">Récits de voyage</a></li>
+            {% if is_granted('ROLE_USER') == false %}
+            <li class="souligne"><a href="#">Voir la demo</a></li>
+            {% endif %}
+            {% if is_granted('ROLE_USER') == false %}
+            <li><a href="/add_backpacker">M'inscrire</a></li>
+            <li class="souligne"><a href="/login">Me connecter</a></li>
+            {% endif %}
+            <li><a href="/mentions">Mentions légales</a></li>
+            <li><a href="/cgu">CGU </a></li>
+            <li><a href="/cookies">Politique de confidentialité & gestion des cookies </a></li>
+        </ul>
+
+    </nav>
+    <!-- fin de la nav -->
+</div>
+<div class="ecranpc">
+    <img src="{{ asset('image/Home.jpg') }}">
+    <p>Share&go vous aide à vous fondre dans le quotidien d'un local et vous permet de partager votre savoir-faire à travers le globe.
+        <br>
+        Notre site n’est pas devant son bureau, n’hésitez pas à le consulter sur la route avec votre mobile</p>
+</div>
+{% block body %}
+
+{% endblock %}
+{% block javascripts %}
+        <script src="{{asset('js/app.js') }}"></script>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+
+    <script type="text/javascript">
+
+        $(document).ready(function(){
+
+//au chargement de la page je règle le marginTop de #barre à 0 (il etait fixé à -50px dans le css) en 500ms
+
+            $('#pop').animate({
+                marginTop: "0",
+            }, 500);
+
+//au clic sur #fermer qui est la croix j'anime le marginTop de #barre à -30px pour le faire remonter et laisser le border bottom apparent
+
+            $("#fermer").mousedown(function(){
+
+                $('#pop').animate({
+                    marginTop: "-500px",
+                }, 500);
+
+            });
+        });
+    </script>
+{% endblock %}
+</body>
+
+</html>
